@@ -1,0 +1,27 @@
+.form {
+  width: 100%;
+  height: 100%;
+}
+
+.form input {
+  padding: 10px 5px;
+  margin: 20px 5px 20px 0px;
+  /* outline: none; */
+  border-bottom: 1px solid #ddd;
+  min-width: 49%;
+  outline-color: #f6b26b;
+}
+.form textarea {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 10px 10px 10px 5px;
+  border: 1px solid #ddd;
+  outline-color: #f6b26b;
+  /* rows: 2px; */
+}
+
+.btn-email {
+  color: #f6b26b;
+  border: 1px solid #f6b26b;
+  margin-bottom: 35px;
+}

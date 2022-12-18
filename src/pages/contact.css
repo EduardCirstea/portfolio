@@ -1,0 +1,67 @@
+.contact {
+  min-height: 70vh;
+  background-color: #fff;
+  color: #000;
+  position: relative;
+}
+.contact::before,
+.contact::after {
+  content: '';
+  z-index: 100;
+  top: -120px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 700px solid transparent;
+  border-right: 700px solid transparent;
+  border-bottom: 120px solid #fff;
+}
+.contact::after {
+  left: 1400px;
+}
+
+.contact .container {
+  height: 100%;
+  display: grid;
+  place-self: center;
+}
+
+.contact-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact-content .div2 {
+  flex-basis: 70%;
+  min-width: 700px;
+}
+.contact-content .div1 {
+  flex-basis: 30%;
+  padding: 3.125rem 0;
+}
+
+.contact h2 {
+  margin: 50px 0px;
+  font-size: 50px;
+  border-bottom: 2px solid #f6b26b;
+}
+
+.contact-content .div1 p {
+  margin: 20px 0;
+  font-size: 20px;
+}
+.contact-content .div1 p:first-child {
+  margin: 0;
+}
+.contact-content .div1 {
+  flex-basis: 30%;
+  padding: 3.125rem 0;
+}
+
+@media screen and (max-width: 1250px) {
+  .contact {
+    min-height: 100vh;
+  }
+}

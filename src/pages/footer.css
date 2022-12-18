@@ -1,0 +1,24 @@
+.footer {
+  position: relative;
+  background: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  color: #000;
+  font-size: 20px;
+}
+
+.footer .link {
+  display: flex;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.footer .link li {
+  margin-right: 20px;
+}
+
+.footer .link a:hover {
+  color: orange;
+}
