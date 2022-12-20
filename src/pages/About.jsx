@@ -17,38 +17,52 @@ function About() {
             <h2>
               About <span>Me</span>
             </h2>
+            <h4 className="about-skills">
+              Skills: Html,Css,Scss,Tailwind,Javascript,React,Redux toolkit,E2e
+              testing(Cypress),unit
+              testing,Nodejs(express),Mongodb(mongoose),Sanity,Figma,Git
+            </h4>
             <p>
-              For instance, whenever I go back to the guest house during the
-              morning to copy out the contract, these gentlemen are always still
-              sitting there eating their breakfasts. I ought to just try that
-              with my boss; I'd get kicked out on the spot.
+              I'm a Fullstack Developer located in Romania with a serious
+              passion for creating intiuitive,dynamic user experiences.
             </p>
             <p>
-              But who knows, maybe that would be the best thing for me. He'd
-              fall right off his desk! And it's a funny sort of business to be
-              sitting up there at your desk, talking down at your subordinates.
-              I ought to just try that witht my boss; I'd get kicked out on the
-              spot. But who knows, maybe that would be the best thing for me.
-              He'd fall right off his desk! And it's a funny sort of business to
-              be sitting up there at your desk, talking down at your
-              subordinates.
+              Well organised person ,problem solver, independent employee with
+              high attention to detail .Fan of economics,outdoor activities,gym
+              and Tv series
+            </p>
+            <p>
+              A full-stack developer knows no bounds. I can conjur a website
+              from nothing into existence, fully formed. I do not use tricks,
+              nor is this magic. I specialize in manipulating the very fabric of
+              the web, its raw materials of HTML, CSS and JavaScript
             </p>
             <p className="share">
               <span className="bold">Share:</span>
               <a
                 href="https://www.linkedin.com/in/eduard-cirstea-1ba2a022b/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <AiFillLinkedin />
               </a>
-              <a href="https://github.com/EduardCirstea" target="_blank">
+              <a
+                href="https://github.com/EduardCirstea"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <AiFillGithub />
               </a>
-              <a href="https://twitter.com/CirsteaEduard7" target="_blank">
+              <a
+                href="https://twitter.com/CirsteaEduard7"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <AiFillTwitterCircle />
               </a>
               <a
                 href="https://www.instagram.com/cirstea_eduard7/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <AiFillInstagram />

@@ -11,10 +11,9 @@ function TypeWritterEffect() {
       startDelay={1000}
       cursorColor="#3F3D56"
       multiText={[
-        'Web Developer',
+        'Fullstack web Developer',
         'Web designer',
-        'Fullstack Developer',
-        'Normal Person',
+        'Frontend Developer',
       ]}
       multiTextLoop={true}
       multiTextDelay={1000}

@@ -1,9 +1,9 @@
 import React from 'react'
 import './header.css'
 import { Link } from 'react-scroll'
-import { BsArrowRightShort } from 'react-icons/bs'
+
 import TypeWritterEffect from '../components/TypeWritterEffect'
-import pdf from '../sampe.pdf'
+import pdf from '../resume-edi.pdf'
 
 function Header() {
   return (
@@ -28,7 +28,7 @@ function Header() {
             >
               My Projects
             </Link>
-            <a href={pdf} target="_blank" className="btn">
+            <a href={pdf} target="_blank" rel="noreferrer" className="btn">
               View Cv
             </a>
           </div>

@@ -5,7 +5,11 @@
   color: #000;
   position: relative;
 }
-
+.about-skills {
+  color: #999;
+  font-size: 14px;
+  margin-top: 7px;
+}
 .about::before,
 .about::after {
   content: '';

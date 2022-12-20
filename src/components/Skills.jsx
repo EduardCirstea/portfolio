@@ -13,20 +13,23 @@ function Skills() {
           </div>
           <div className="skill">
             <p>
-              Brought a to just try that with my boss; I'd get kicked out on the
-              spot. But who's knows maybe the better
+              Working on the apperance, layout and content of the page , i can
+              transform your idea in reality and be aestheically pleasant to
+              suits your expectations.Solving the problems with the same level
+              of thinking that created them.
             </p>
           </div>
         </div>
         <div className="col-3">
           <div className="skills-row">
             <BsPencil />
-            <h3>Illustrator</h3>
+            <h3>Problem Solving</h3>
           </div>
           <div className="skill">
             <p>
-              Brought a to just try that with my boss; I'd get kicked out on the
-              spot. But who's knows maybe the better
+              1.Identity and understand the right problem. 2.Research the
+              systems and practices behind the problem. 3.Visualise the problem.
+              4.Brainstorm creative solutions. 5.Identify the best answer.
             </p>
           </div>
         </div>
@@ -37,8 +40,9 @@ function Skills() {
           </div>
           <div className="skill">
             <p>
-              Brought a to just try that with my boss; I'd get kicked out on the
-              spot. But who's knows maybe the better
+              Just like your personal identity makes you uniquely you, your
+              brand identity is the special sauce for your business that sets
+              you apart from every other Tom, Dick and Harry, Inc. on the block.
             </p>
           </div>
         </div>
