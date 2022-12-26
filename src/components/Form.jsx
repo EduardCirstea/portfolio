@@ -2,6 +2,8 @@ import React, { useState, useRef } from 'react'
 import './style/form.css'
 import emailjs from '@emailjs/browser'
 
+import { toast } from 'react-toastify'
+
 export const Form = () => {
   const service_id = process.env.REACT_APP_SERVICE_ID
   const template_id = process.env.REACT_APP_TEMPLATE_ID
@@ -14,14 +16,18 @@ export const Form = () => {
   const sendEmail = (e) => {
     e.preventDefault()
 
-    if (!user || !email || !text) return console.log('failed')
+    if (!user || !email || !text) {
+      return toast.error('Failed to send email')
+    }
 
     emailjs.sendForm(service_id, template_id, form.current, public_key).then(
       (result) => {
         console.log(result.text)
+        toast.success('Email sent succesfully')
       },
       (error) => {
         console.log(error.text)
+        toast.error('Failed to send email')
       }
     )
   }
@@ -54,7 +60,7 @@ export const Form = () => {
         />
 
         <button type="submit" className="btn btn-email">
-          Send Message
+          Let's connect
         </button>
       </form>
     </div>

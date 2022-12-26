@@ -16,6 +16,9 @@ function Header() {
           <h2>
             <TypeWritterEffect />
           </h2>
+          <p>
+            You can focus on running you business while i focus on growing it!
+          </p>
           <div className="btn-group">
             <Link
               // activeClass="active"

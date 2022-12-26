@@ -18,18 +18,20 @@ function About() {
               About <span>Me</span>
             </h2>
             <h4 className="about-skills">
-              Skills: Html,Css,Scss,Tailwind,Javascript,React,Redux toolkit,E2e
-              testing(Cypress),unit
-              testing,Nodejs(express),Mongodb(mongoose),Sanity,Figma,Git
+              Skills: HTML5 / CSS3 / JavaScript / NPM / GIT (Git Hub) / React /
+              NodeJS/Express.js / MongoDB/Mongoose / Testing with Jest /
+              End-to-End testing - Cypress / react testing library / Jira /
+              Figma / JSON / Redux toolkit / React Router Dom / Axios / Visual
+              Studio Code / Sass / Tailwind / Postman / REST / C / C++
             </h4>
             <p>
               I'm a Fullstack Developer located in Romania with a serious
-              passion for creating intiuitive,dynamic user experiences.
+              passion for creating intiuitive, dynamic user experiences.
             </p>
             <p>
-              Well organised person ,problem solver, independent employee with
-              high attention to detail .Fan of economics,outdoor activities,gym
-              and Tv series
+              Well organised person , problem solver, independent employee with
+              high attention to detail . Fan of economics, outdoor
+              activities,gym and Tv series
             </p>
             <p>
               A full-stack developer knows no bounds. I can conjur a website

@@ -8,16 +8,16 @@
 .contact::after {
   content: '';
   z-index: 100;
-  top: -120px;
+  top: -100px;
   position: absolute;
   width: 0;
   height: 0;
-  border-left: 700px solid transparent;
-  border-right: 700px solid transparent;
-  border-bottom: 120px solid #fff;
+  border-left: 560px solid transparent;
+  border-right: 560px solid transparent;
+  border-bottom: 100px solid #fff;
 }
 .contact::after {
-  left: 1400px;
+  left: 1120px;
 }
 
 .contact .container {

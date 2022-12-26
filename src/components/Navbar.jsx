@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import './style/navbar.css'
-import pdf from '../sampe.pdf'
+import pdf from '../resume-edi.pdf'
 
 function Navbar() {
   const [active, setActive] = useState('nav-menu')

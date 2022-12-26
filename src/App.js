@@ -9,6 +9,8 @@ import Skills from './components/Skills'
 import Contact from './pages/Contact'
 import Footer from './pages/Footer'
 import PageNotFound from './pages/PageNotFound'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -53,6 +55,7 @@ function App() {
           />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
+        <ToastContainer />
       </Router>
     )
   }

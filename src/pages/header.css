@@ -5,6 +5,11 @@
   position: relative;
   z-index: 1;
 }
+.header p {
+  font-size: 20px;
+  margin: 0px 0px 20px;
+  color: #ddd;
+}
 
 .header::before {
   content: '';
@@ -31,7 +36,7 @@
 }
 .content-header h2 {
   font-size: 35px;
-  margin: 20px 0px 40px;
+  margin: 20px 0px 20px;
 }
 .btn-group {
   display: flex;
