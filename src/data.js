@@ -95,12 +95,4 @@ he is up to work ,his site and followers.
     linkYt: '#',
     linkGithub: 'https://github.com/EduardCirstea/Facebook-clone',
   },
-  {
-    img: `${screen}`,
-    title: 'Portfolio',
-    sub: 'react',
-    desc: 'Creating and developing my own portfolio using React and css for styling ,figma for designing ',
-    linkYt: '#',
-    linkGithub: '#',
-  },
 ]
